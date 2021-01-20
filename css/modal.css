@@ -9,15 +9,34 @@
     height: 96%; 
     overflow: hidden; 
     background-color: rgba(0,0,0,0.8);
+    animation: modal 2s;
 }
-
+@keyframes modal {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 #img-modal > img {
     margin: auto;
     display: block;
     height: 100%;
     position: relative;
+    animation: modalImg 1.5s;
 }
-
+@keyframes modalImg {
+    from {
+      opacity: 0;
+    }
+    99% {
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
 #img-modal > span {
     position: absolute;
     top: 15px;
