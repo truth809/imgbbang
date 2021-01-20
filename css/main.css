@@ -20,6 +20,7 @@ body { font-size: 1rem; margin: 0; background-color: #fafafa}
     max-width: 20rem;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+    vertical-align: bottom;
 }
 .img h3 {
     text-align: center;
